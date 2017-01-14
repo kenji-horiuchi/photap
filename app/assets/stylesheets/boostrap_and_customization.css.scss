@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 $body-bg: #ecf0f1;
 $navbar-height: 50px;
 $navbar-default-bg: black;
@@ -8,3 +8,11 @@ $bland-primary: #3498db;
 $jumbotron-bg: white;
 
 @import "bootstrap";
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
+}
